@@ -41,6 +41,7 @@ This project detects whether an uploaded **image or video is REAL or FAKE (deepf
 ---
 
 ## 🏗️ Project Structure
+
 deepfake-detector/
 │
 ├── main.py # Streamlit application
@@ -79,7 +80,7 @@ streamlit run app.py
 These are **baseline (dummy) models** created for demonstrating the full deepfake detection pipeline.  
 They are **not trained on real deepfake datasets**, so prediction accuracy is limited.
 
----
+
 
 ## ⚠️ Current Limitations
 
@@ -88,7 +89,7 @@ They are **not trained on real deepfake datasets**, so prediction accuracy is li
 - Confidence scores may be close to 0.5
 - Intended for **learning, demo, and system design purposes**
 
----
+
 
 ## 🔮 Future Improvements
 
@@ -99,7 +100,7 @@ They are **not trained on real deepfake datasets**, so prediction accuracy is li
 - 🔥 Deploy on cloud (Render / HuggingFace Spaces)
 - 🔥 Add performance metrics (accuracy, precision, recall)
 
----
+
 
 ## 💡 Use Cases
 
@@ -109,7 +110,7 @@ They are **not trained on real deepfake datasets**, so prediction accuracy is li
 - Understanding CNN + LSTM workflows
 - Foundation for production-grade deepfake systems
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -119,7 +120,7 @@ They are **not trained on real deepfake datasets**, so prediction accuracy is li
 - NumPy
 - Streamlit
 
----
+
 
 ## 👨‍💻 Author
 
@@ -127,9 +128,10 @@ They are **not trained on real deepfake datasets**, so prediction accuracy is li
 Deep Learning | NLP | Computer Vision  
 📌 Built as a learning-focused Deepfake Detection project
 
----
+
 
 ## 📌 Disclaimer
 
 This project uses **baseline models** for demonstration purposes only.  
 It is **not intended for real-world forensic or legal usage** without proper training and evaluation.
+
